@@ -1,9 +1,14 @@
 {
-    "notes": [
-        {
-          "title": "This is a test",
-          "text": "test test test",
-          "id": ""
-        }
-    ]
+  "notes": [
+    {
+      "title": "This is a test",
+      "text": "test test test",
+      "id": ""
+    },
+    {
+      "title": "Hello",
+      "text": "this is a new note",
+      "id": "95fd2aa0-612e-11ed-8bf0-2992d491c1be"
+    }
+  ]
 }
