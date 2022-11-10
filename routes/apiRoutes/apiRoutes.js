@@ -1,10 +1,9 @@
 const router = require("express").Router();
-
-const uuid = require("uuid"); //
+const uuid = require("uuid"); //unique id package
 const fs = require("fs");
 const { validateNote } = require("../../lib/notes");
 
-// get all notes
+// get notes
 router.get("/notes/", (req, res) => {
   fs.readFile("./db/db.json", "utf8", (err, jsonData) => {
     if (err) throw err;
