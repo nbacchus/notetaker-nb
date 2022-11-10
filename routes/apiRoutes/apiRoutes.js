@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const uuid = require("uuid"); //unique id package
+const uuid = require("uuid");
 const fs = require("fs");
 const { validateNote } = require("../../lib/notes");
 
